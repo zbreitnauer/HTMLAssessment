@@ -9,6 +9,14 @@ text-align: center;
 
 }
 
+tr:nth-child(even){
+  background-color: lightgreen;
+}
+
+tr:nth-child(odd){
+  background-color: lightblue;
+}
+
 #teamRoster,#checkbox-grid{
   list-style-type: square;
 }
@@ -18,14 +26,16 @@ text-align: center;
   background-repeat: no-repeat;
   background-size: 200px;
 
-
-
 }
 
 #teamRoster > li:last-child{
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
   background-repeat: no-repeat;
   background-size: 150px;
+}
+
+#teamRoster ul li ol:first-child{
+  font-weight: bold;
 }
 
 a:hover{
