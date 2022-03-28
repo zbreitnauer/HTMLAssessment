@@ -2,3 +2,42 @@
   color: purple;
   font-family: sans-serif;
 }
+#scoreBoard, th, td {
+font-weight: bold;
+border: 1px solid black;
+text-align: center;
+
+}
+
+#teamRoster,#checkbox-grid{
+  list-style-type: square;
+}
+
+#teamRoster> li:first-child  {
+  background-image:url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+  background-repeat: no-repeat;
+
+}
+
+#teamRoster > li:last-child{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+  background-repeat: no-repeat;
+}
+
+a:hover{
+  color: orange;
+  text-decoration: none;
+}
+
+blockquote{
+  background-color: black;
+  color: white;
+}
+
+#checkbox-grid{
+  list-style-type: none;
+}
+
+img{
+  display: none;
+}
